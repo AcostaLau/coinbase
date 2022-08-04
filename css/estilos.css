@@ -1,0 +1,242 @@
+.subtitle-color {
+  color: #aaa;
+}
+
+.btn-main, .btn-main-s {
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: #0075FF;
+  color: white;
+  border: none;
+  border: 1px solid #0075FF;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0075FF;
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  color: #000;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: #888;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu {
+  margin-bottom: 0;
+  padding: 0;
+}
+.main-menu li {
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+.main-menu li a {
+  color: #000;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 0.75rem;
+  color: #0075FF;
+  padding: 0.1rem 0.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  text-align: center;
+}
+.feature .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.feature .description .text {
+  color: #555;
+  font-weight: 600;
+  text-align: center;
+}
+.feature .cta {
+  color: #0075FF;
+  font-weight: 600;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.icon-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desk .icon {
+  color: #0075FF;
+  font-size: 10rem;
+  padding: 0;
+}
+.icon-desk .title {
+  margin-top: -2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 6rem;
+}
+
+.sec-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5rem;
+}
+.sec-home .home-cta {
+  display: 1;
+}
+.sec-home .home-cta .cta-text {
+  color: #0075FF;
+}
+.sec-home .home-cta .cta-text i {
+  font-weight: 600;
+}
+.sec-home .home-cta .home-title {
+  width: 30rem;
+  font-size: 5rem;
+}
+.sec-home .home-cta .home-text {
+  width: 25rem;
+}
+.sec-home .home-cta .home-input {
+  padding: 0.4rem;
+  width: 15rem;
+  border: solid 1px #ddd;
+  border-radius: 5px;
+}
+.sec-home .home-cta .home-input::placeholder {
+  color: #aaa;
+}
+
+.sec-features {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 5rem 2rem 5rem;
+}
+.sec-features .container-chart {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 5rem 0rem 5rem;
+}
+.sec-features .container-chart .features-description {
+  display: flex;
+  width: 30rem;
+}
+.sec-features .container-chart .features-description .title {
+  width: 15rem;
+  margin: 0;
+}
+.sec-features .container-chart .features-description .icon {
+  margin-right: 0.5rem;
+  color: #0075FF;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  padding: 0.1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.sec-benefits {
+  margin-top: 5rem;
+}
+.sec-benefits .container-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec-benefits .container-benefits .container-description-icon {
+  width: 20rem;
+}
+.sec-benefits .container-benefits .icon-text-main-color {
+  color: #0075FF;
+  margin-top: 5rem;
+}
+
+.sec-kpis {
+  background-color: #0075FF;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 7rem 0rem;
+}
+.sec-kpis div h2 {
+  font-size: 5rem;
+}
+
+.container-icon-desk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-icon-desk .icon-desk {
+  margin: 0 3rem;
+}
+.container-icon-desk .separador {
+  border-top: 1px solid rgba(0, 0, 0, 0.2509803922);
+  height: 1rem;
+  width: 10rem;
+}
+
+.sec-footer-cta {
+  display: flex;
+  background-color: #F4F7FE;
+  padding: 5rem;
+  margin-top: 5rem;
+  background-image: url(../img/bg\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.sec-footer-cta .sec-footer-text p {
+  width: 30rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */
